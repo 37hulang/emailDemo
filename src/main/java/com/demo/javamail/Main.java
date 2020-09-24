@@ -10,6 +10,8 @@
  */
 package com.demo.javamail;
 
+import com.sun.javafx.scene.layout.region.Margins;
+
 import javax.mail.*;
 import java.util.Date;
 import java.util.Properties;
@@ -35,7 +37,9 @@ public class Main {
     private static final String receiveEmail="248@qq.com";
 
     public static void main(String[] args) throws Exception {
-        sendEmail();
+
+        Integer c= 1/0;
+        //sendEmail();
         //sendMail("测试发邮件");
     }
 
